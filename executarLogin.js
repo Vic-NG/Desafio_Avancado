@@ -2,13 +2,13 @@ function executarLogin(){
     var user = document.getElementById("login");
     var senha = document.getElementById("loginPassword")
 
-    if(user.value == "" && user.value != "tlopes@gmail.com"){
+    if(user.value == ""){
         alert("Insira seu e-mail.");
         user.focus();
         return false;
     }
 
-    if(senha.value == "" && senha.value != 123456){
+    if(senha.value == ""){
         alert("Insira sua senha.");
         senha.focus();
         return false;
